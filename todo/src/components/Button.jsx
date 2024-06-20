@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = () => {
-    return (
-        <input type="button" />
-    );
+    return <button className= "todo-btn">ADD TO-DO</button>
 }
+
+export default Button;

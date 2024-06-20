@@ -1,0 +1,35 @@
+body{
+    background-color :darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-container{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-btn{
+    width: 100%;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.todo-item-text{
+    margin-left: 8px;
+}
